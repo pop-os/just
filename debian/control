@@ -1,0 +1,15 @@
+Source: just
+Section: devel
+Priority: optional
+Maintainer: Michael Aaron Murphy <mmstick@pm.me>
+Build-Depends:
+    cargo,
+    debhelper-compat (=10),
+    rustc,
+Standards-Version: 4.1.1
+Homepage: https://github.com/pop-os/just
+
+Package: just
+Architecture: amd64 arm64
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: 🤖 Just a command runner
