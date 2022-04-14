@@ -1,12 +1,12 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: pop-launcher
-Upstream-Contact: System76 <info@system76.com>
-Source: https://github.com/pop-os/launcher
+Upstream-Name: just
+Upstream-Contact: Casey Rodarmor <casey@rodarmor.com>
+Source: https://github.com/casey/just
 
 Files: *
-Copyright: 2021 System76 <info@system76.com>
-License: MPL-2.0
+Copyright: 2021 Casey Rodarmor <casey@rodarmor.com>
+License: CC0-1.0
 
-Files: debian/* plugins/*
+Files: debian/*
 Copyright: 2021 System76 <info@system76.com>
-License: GPL-3
+License: CC0-1.0
